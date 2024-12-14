@@ -1,0 +1,28 @@
+### Variables
+@url = http://localhost:3010/api/v1
+
+@e-code = TNT
+
+@m-code = CCB
+
+### menu
+GET {{url}}/menu
+
+### events
+GET {{url}}/events
+
+
+### specific event
+GET {{url}}/events/{{e-code}}
+
+
+### Specific menu item
+GET {{url}}/menu/{{m-code}}
+
+### Add new menu item
+POST {{url}}/menu
+Content-Type: application/json
+
+### Add new event
+POST {{url}}/events
+Content-Type: application/json

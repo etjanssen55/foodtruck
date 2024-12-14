@@ -1,0 +1,218 @@
+
+
+body{
+    background-color: rgb(6, 0, 48);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 650px;
+    margin: 0 auto;
+}
+
+header{
+    height: 100px;
+    width: 85%;
+    background-image: url(../img/burger.jpg);
+    background-color:black;
+    background-size: cover;
+    background-position: 50% 80%;
+    margin: 0 auto;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+nav {
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+nav ul ul {
+    display: none;
+    position: relative;
+    left: 75px;
+    bottom: 19px;
+    background-color: gray;
+    
+}
+
+nav ul li:nth-of-type(3):hover ul {
+    display: block;
+    
+}
+
+nav ul ul li {
+    text-align: left;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 15px;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(181, 177, 255);
+}
+
+#start{
+    height: 400px;
+    width: auto;
+}
+
+#slogan {
+    float: left;
+    color: white;
+    font-size: 50pt;
+    margin-left: 55px;
+    margin-top: 72px;
+    width: 50px;
+}
+
+#video {
+margin-bottom: 40px;
+z-index: -1;
+}
+
+section:nth-of-type(2){
+    position: relative;
+    bottom: 70px;
+    width: 552px;
+    margin-left: 55px;
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+section:nth-of-type(2) p{
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section:nth-of-type(2) div{
+    margin-bottom: 90px;
+}
+
+section:nth-of-type(2) h1:first-of-type{
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+section:nth-of-type(3){
+    position: relative;
+    width: 552px;
+    bottom: 50px;
+    margin-left: 55px;
+    text-align: left;
+}
+
+#foodtruck {
+    width: 552px;
+    height: auto;
+}
+
+#events{
+    position: relative;
+    width: 552px;
+    margin-left: 55px;
+    text-align: left;
+    display: block;
+}
+
+#events div{
+    margin-bottom: 70px;
+}
+
+#events h1{
+    text-decoration: underline;
+    margin-bottom: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#events a{
+    color: white;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+#events a:hover{
+    color: rgb(181, 177, 255);
+}
+
+#events p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+footer{
+    font-family:'Courier New', Courier, monospace;
+    display: block;
+    width: 552px;
+    margin-top: 70px;
+    margin-left: 55px;
+    font-size: 8pt;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+footer a:hover {
+    color: rgb(181, 177, 255);
+}
+
+#events {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#eventH1 {
+    display: block;
+    width: 552px;
+    margin: 20px auto;
+    margin-left: 55px;
+}
+
+#events ul {
+    padding: 0;
+    margin-left: 0;
+    margin-bottom: 40px;
+}
+
+#events ul li {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+#events img {
+    margin-bottom: 40px;
+}
+
+#admin p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#admin label {
+    display: block;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
